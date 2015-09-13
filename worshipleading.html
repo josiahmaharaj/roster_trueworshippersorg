@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<h1>Worship Leaders</h1>
+<h1>2015</h1>
+
+<div class="worship">
+	{% for date in site.data.worshipleading %}
+	<h2><em>{{ date.Month }}</em></h2>
+
+
+		{% for item in date.items %}
+			<h4>{{ item.day }}</h4>
+			<p>{{ item.person }}</p>
+		{% endfor %}
+</div>
+
+{% endfor %}

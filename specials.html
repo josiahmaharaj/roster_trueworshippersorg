@@ -1,0 +1,20 @@
+---
+layout: page
+---
+<div class="special">
+<h1>Specials</h1>
+<h1>2015</h1>
+
+
+
+	{% for special in site.data.specials %}
+	<h2><em>{{ special.Month }}</em></h2>
+
+		{% for item in special.items %}
+			<h4>{{ item.day }}</h4>
+			<p>{{ item.person }}</p>
+		{% endfor %}
+
+</div>
+
+{% endfor %}
