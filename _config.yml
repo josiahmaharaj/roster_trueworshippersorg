@@ -2,7 +2,7 @@
 title: True Worshippers Evangelistic Centre
 email: twectt@gmail.com
 description: Roster for singers
-baseurl: "/roster_trueworshippersorg" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://josiahmaharaj.github.io/" # the base hostname & protocol for your site
 
 # Build settings
