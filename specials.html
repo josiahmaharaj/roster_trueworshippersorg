@@ -8,11 +8,11 @@ layout: page
 
 
 	{% for special in site.data.specials %}
-	<h2><em>{{ special.Month }}</em></h2>
+	<h2 style="padding-left:20px"><em>{{ special.Month }}</em></h2>
 
 		{% for item in special.items %}
-			<h4>{{ item.day }}</h4>
-			<p>{{ item.person }}</p>
+			<h4 style="padding-left:40px">{{ item.day }}</h4>
+			<p style="padding-left:50px">{{ item.person }}</p>
 		{% endfor %}
 
 </div>
