@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: worshipleading/
+---
+
+<h1>Worship Leaders</h1>
+<h1>2015</h1>
+
+	{% for date in site.data.worshipleading %}
+	<h2 style="padding-left:20px"><em>{{ date.Month }}</em></h2>
+
+
+		{% for item in date.items %}
+			<p style="padding-left:40px">{{ item.day }}</p><p style="padding-left:50px">{{ item.person }}</p>
+		{% endfor %}
+
+{% endfor %}
